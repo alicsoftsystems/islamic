@@ -1,0 +1,20 @@
+@media only screen and (max-width: 480px) {
+  .navbar-nav li {
+    margin-left: 0% !important;
+  }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 994px) {
+  .islam-pillars-sec ul {
+    display: flex;
+  }
+}
+
+@media only screen and (min-width: 994px) {
+  .navbar-nav {
+    align-items: center !important;
+  }
+  .islam-pillars-sec ul {
+    display: flex;
+  }
+}

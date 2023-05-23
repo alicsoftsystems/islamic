@@ -1,0 +1,129 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.navbar {
+  background-color: #6dab3c;
+  color: white;
+}
+.navbar-nav li {
+  font-size: 20px !important;
+  margin-left: 35px;
+}
+.nav-sub-btn {
+  border-radius: 50px;
+  background-color: white;
+  color: #6dab3c;
+  border: 2px solid white;
+  width: 140px;
+}
+.discover-now-btn {
+  width: 190px;
+  background-color: #6dab3c;
+  color: white;
+  border-radius: 50px;
+  border: 2px solid #6dab3c;
+}
+.main-hero-sec {
+  background: linear-gradient(
+      120deg,
+      rgba(15, 0, 0, 0.682),
+      rgba(108, 171, 60, 0.279)
+    ),
+    url(../img/hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100%;
+  width: 100% !important;
+  padding: 140px 0px;
+}
+
+.hero-hero-head h2 {
+  color: white;
+  font-size: 45px;
+}
+.namaz-card {
+  padding: 40px 10px;
+  background-color: #f0f7eb;
+  text-align: center;
+}
+.namaz-card-sec {
+  padding: 40px 10px;
+  text-align: center;
+}
+
+.pillar-islam-sec {
+  background: linear-gradient(rgba(15, 0, 0, 0.682), rgba(0, 0, 0, 0.279)),
+    url(../img/pillars.jpg);
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  padding: 100px 0px 50px 0px;
+}
+.islam-pillars-sec ul {
+  justify-content: space-between;
+  text-align: center;
+}
+.islam-pillars-sec ul li {
+  list-style: none;
+  text-align: center;
+}
+.img-pilar-dv {
+  background-color: #6dab3c;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center;
+  display: flex;
+}
+.islam-pillars-sec h3 {
+  color: white;
+}
+.islam-pillars-sec h5 {
+  color: white;
+}
+.view-all-btn {
+  background-color: #6dab3c;
+  color: white;
+  width: 140px;
+  border-radius: 10px;
+  border: none;
+}
+.card-img-top {
+  border-radius: 0px 0px;
+}
+.card {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: none;
+}
+.submit-btn {
+  border: #6dab3c;
+  width: 130px;
+  background-color: white;
+  color: #6dab3c;
+  border-radius: 7px;
+}
+.subcribe-area-sec {
+  background-color: #6dab3c;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 0px 10px 40px 10px;
+}
+.email-inpt {
+  width: 90%;
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  border-radius: 9px;
+}
+.main-footer {
+  background-color: #222222;
+  padding: 50px 10px 50px 10px;
+  color: white;
+}
+.footer-unor-list ul li {
+  list-style: none;
+  margin-top: 10px;
+}
