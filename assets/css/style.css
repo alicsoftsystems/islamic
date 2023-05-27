@@ -127,3 +127,77 @@ body {
   list-style: none;
   margin-top: 10px;
 }
+
+
+
+
+
+/* ===================================== about page css =========================================== */
+
+.sec-title-inner h3{
+  color: #d1ad3c;
+  font-size: 40px;
+  font-weight: 900;
+}
+.secndry-clr{
+  color: #6dab3c;
+}
+.sec-title p{
+  color: #6dab3c;
+  font-weight: 400;
+}
+.srv-mckp img{
+  width: 70%;
+}
+.srv-ttl img{
+  width: 15%;
+  
+}
+.srv-ttl h4{
+  color: #6dab3c;
+  font-weight: 600;
+  font-size: 21px;
+}
+.srv-box3 p{
+  color: #6cab3cc0;
+}
+.srv-niclos{
+  margin-left: 20px;
+}
+.srv-ttl{
+  display: flex;
+}
+
+/* ======================================== */
+
+.wai{
+  margin-top: 5rem;
+}
+.msn-thmb-wrap{
+  background-color: #e4e4e4;
+  border: 5px solid #ffffff;
+}
+.msn-desc h3{
+  color: #6dab3c;
+  font-size: 31px;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+.msn-desc p{
+color: #6cab3cc0;
+}
+.msn-desc ul li{
+  color: #6dab3c;
+  margin-top: 1rem;
+}
+.thm-btn{
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+  background-color: #6dab3c;
+  border: 1px solid #6dab3c;
+  border-radius: 25px;
+}
+.brd-rd40{
+  margin-top: 10rem;
+}

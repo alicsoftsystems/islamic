@@ -2,11 +2,17 @@
   .navbar-nav li {
     margin-left: 0% !important;
   }
+  .srv-mckp img{
+    width: 100%;
+  }
 }
 
 @media only screen and (min-width: 767px) and (max-width: 994px) {
   .islam-pillars-sec ul {
     display: flex;
+  }
+  .srv-mckp img{
+    width: 100%;
   }
 }
 
@@ -17,4 +23,7 @@
   .islam-pillars-sec ul {
     display: flex;
   }
+}
+@media only screen and (min-width: 1024px) {
+  
 }
