@@ -127,3 +127,31 @@ body {
   list-style: none;
   margin-top: 10px;
 }
+/* blog */
+.hero_h_bg_img{
+  background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.7)), url(../img/hero-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px;
+}
+.hero_down{
+  color: #fff;
+  text-decoration: none;
+}
+.hero_down:hover{
+  color: #6dab3c;
+  transition: .4s;
+}
+.blg_h_body{
+  margin-left: -13px;
+}
+.main_img_H{
+  overflow: hidden;
+}
+.blog_hover_eff{
+  transition: ease-in-out 0.5s;
+}
+.blog_hover_eff:hover{
+  transform: scale(1.1);
+}
+/* blog */
