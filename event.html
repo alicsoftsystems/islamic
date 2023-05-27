@@ -1,36 +1,167 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <title>Title</title>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
     <!-- Bootstrap CSS v5.2.1 -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+  </head>
 
-</head>
-
-<body>
+  <body>
     <header>
-        <!-- place navbar here -->
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand ms-lg-5" href="#">Logo Here</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse"
+            id="navbarNavDropdown"
+            style="justify-content: right !important"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./blog.html">Blogs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./event.html">Events</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"
+                  ><button class="nav-sub-btn p-1">Submit</button></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
     <main>
         
     </main>
     <footer>
-        <!-- place footer here -->
+      <div class="container-fluid main-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3">
+              <h2 class="text-white">Logo Here</h2>
+              <p>
+                Please write your email and get our amazing updates, news and
+                support.
+              </p>
+              <p><i class="bi bi-phone me-2"></i> +92 300 0000 00</p>
+              <p><i class="bi bi-envelope me-2"></i> example@gmail.com</p>
+              <p>
+                <i class="bi bi-map me-2"></i> P-123 Loream Ipsum Faisalabad,
+                Punjab Pakistan
+              </p>
+            </div>
+            <div class="col-lg-3">
+              <h4 class="text-white">Latest News</h4>
+              <div class="row">
+                <div class="col-md-4">
+                  <img src="./assets/img/black-gall.jpg" alt="" class="w-100" />
+                </div>
+                <div class="col-md-8">
+                  <span>April 18, 2023</span>
+                  <h6>Merriage And Islam</h6>
+                </div>
+              </div>
+              <div class="row mt-4">
+                <div class="col-md-4">
+                  <img src="./assets/img/about.jpg" alt="" class="w-100" />
+                </div>
+                <div class="col-md-8">
+                  <span>April 18, 2023</span>
+                  <h6>Merriage And Islam</h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 footer-unor-list text-center">
+              <h4 class="text-white">Usefull Links</h4>
+              <ul class="ps-0">
+                <li>Who we are?</li>
+                <li>Suppot & Faqs</li>
+                <li>Payments</li>
+                <li>Donations</li>
+                <li>Volunteers</li>
+              </ul>
+            </div>
+            <div class="col-lg-3 footer-unor-list text-center">
+              <h4 class="text-white">Social Feed</h4>
+              <ul class="ps-0">
+                <li>Who we are?</li>
+                <li>Suppot & Faqs</li>
+                <li>Payments</li>
+                <li>Donations</li>
+                <li>Volunteers</li>
+              </ul>
+            </div>
+          </div>
+          <hr />
+          <div
+            class="col-md-12"
+            style="justify-content: space-between; display: flex"
+          >
+            <div class="">
+              <h6>Copyrights©2023 Reserved</h6>
+            </div>
+            <div class="">
+              <h6>Designed by Ali Hasnain</h6>
+            </div>
+          </div>
+        </div>
+      </div>
     </footer>
     <!-- Bootstrap JavaScript Libraries -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
-        </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
-        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
-        </script>
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
