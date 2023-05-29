@@ -197,9 +197,8 @@ body {
 .wai{
   margin-top: 5rem;
 }
-.msn-thmb-wrap{
-  background-color: #e4e4e4;
-  border: 5px solid #ffffff;
+.msn-thmb-wrap img{
+  width: 100%;
 }
 .msn-desc h3{
   color: #6dab3c;
@@ -222,6 +221,26 @@ color: #6cab3cc0;
   border: 1px solid #6dab3c;
   border-radius: 25px;
 }
-.brd-rd40{
-  margin-top: 10rem;
+
+
+/* ====================================================================================== */
+
+.third_about_sec_2{
+  width: 85%;
+  max-width: 850px;
+  margin: 0 auto;
+}
+.third_about_sec_3 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 0.2em;
+}
+.col_third_sec_2 {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 0.2em;
+}
+.col_third_sec_2 img {
+  margin-top: 0.4em;
+  vertical-align: middle;
 }

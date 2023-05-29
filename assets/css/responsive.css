@@ -5,6 +5,18 @@
   .srv-mckp img{
     width: 100%;
   }
+  .msn-thmb-wrap img{
+    width: 100%;
+  }
+  .msn-thmb-wrap_img img{
+    margin-top: 2rem;
+  }
+ 
+}
+@media only screen and (min-width: 481px) and (max-width: 766px) {
+  .msn-thmb-wrap_img img{
+    margin-top: 2rem;
+  }
 }
 
 @media only screen and (min-width: 767px) and (max-width: 994px) {
@@ -14,6 +26,13 @@
   .srv-mckp img{
     width: 100%;
   }
+  .msn-thmb-wrap img{
+    width: 100%;
+  }
+  .msn-thmb-wrap_img img{
+    margin-top: 3rem;
+  }
+  
 }
 
 @media only screen and (min-width: 994px) {
@@ -24,6 +43,16 @@
     display: flex;
   }
 }
-@media only screen and (min-width: 1024px) {
-  
+@media (max-width: 800px) {
+  .col_third_sec_2 {
+      flex: 50%;
+      max-width: 50%;
+  }
+}
+
+@media (max-width: 500px) {
+  .col_third_sec_2 {
+      flex: 100%;
+      max-width: 100%;
+  }
 }
