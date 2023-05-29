@@ -5,6 +5,18 @@
   .srv-mckp img{
     width: 100%;
   }
+  .msn-thmb-wrap img{
+    width: 100%;
+  }
+  .msn-thmb-wrap_img img{
+    margin-top: 2rem;
+  }
+ 
+}
+@media only screen and (min-width: 481px) and (max-width: 766px) {
+  .msn-thmb-wrap_img img{
+    margin-top: 2rem;
+  }
 }
 
 @media only screen and (min-width: 767px) and (max-width: 994px) {
@@ -14,6 +26,13 @@
   .srv-mckp img{
     width: 100%;
   }
+  .msn-thmb-wrap img{
+    width: 100%;
+  }
+  .msn-thmb-wrap_img img{
+    margin-top: 3rem;
+  }
+  
 }
 
 @media only screen and (min-width: 994px) {
@@ -24,8 +43,12 @@
     display: flex;
   }
 }
+<<<<<<< HEAD
+
+=======
 @media only screen and (max-width: 767px) {
   .hero_h_bg_img{
     padding: 100px 0px ;
+>>>>>>> ec8d85578da7bfe7fba63a0771b8eab4cd800cae
   }
 }

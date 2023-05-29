@@ -197,9 +197,8 @@ body {
 .wai{
   margin-top: 5rem;
 }
-.msn-thmb-wrap{
-  background-color: #e4e4e4;
-  border: 5px solid #ffffff;
+.msn-thmb-wrap img{
+  width: 100%;
 }
 .msn-desc h3{
   color: #6dab3c;
@@ -222,6 +221,10 @@ color: #6cab3cc0;
   border: 1px solid #6dab3c;
   border-radius: 25px;
 }
+
+
+
+/* ====================================================================================== */
 .brd-rd40{
   margin-top: 10rem;
 }
@@ -243,3 +246,4 @@ color: #6cab3cc0;
 /* contact */
 
 /* contact */
+
