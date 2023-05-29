@@ -43,16 +43,12 @@
     display: flex;
   }
 }
-@media (max-width: 800px) {
-  .col_third_sec_2 {
-      flex: 50%;
-      max-width: 50%;
-  }
-}
+<<<<<<< HEAD
 
-@media (max-width: 500px) {
-  .col_third_sec_2 {
-      flex: 100%;
-      max-width: 100%;
+=======
+@media only screen and (max-width: 767px) {
+  .hero_h_bg_img{
+    padding: 100px 0px ;
+>>>>>>> ec8d85578da7bfe7fba63a0771b8eab4cd800cae
   }
 }
