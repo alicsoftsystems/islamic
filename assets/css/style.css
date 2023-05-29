@@ -225,3 +225,17 @@ color: #6cab3cc0;
 .brd-rd40{
   margin-top: 10rem;
 }
+/* events */
+.hazrat_ali_head{
+  font-size: 25px;
+}
+.btn_card_all{
+  background-color: transparent;
+  border: 2px solid #6dab3c !important;
+}
+.btn_card_all:hover{
+  background-color: #6dab3c;
+  border: none;
+  transition: .4s;
+  color: #fff;
+}
