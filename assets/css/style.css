@@ -157,7 +157,16 @@ body {
 }
 /* blog */
 /* ===================================== about page css =========================================== */
-
+.sec-title-inner span{
+  color: #6dab3c;
+  font-size: 20px;
+  font-weight: 600;
+}
+.sec-title-inner h2{
+  color: #6dab3c;
+  font-size: 40px;
+  font-weight: 700;
+}
 .sec-title-inner h3{
   color: #d1ad3c;
   font-size: 40px;
@@ -228,6 +237,175 @@ color: #6cab3cc0;
 .brd-rd40{
   margin-top: 10rem;
 }
+.portfolio-section {
+  padding: 50px 0;
+  background-color: #ffffff;
+}
+
+.portfolio-menu {
+  text-align: center;
+}
+.control {
+  background: #6dab3c;
+  color: #fff;
+  padding: 5px 10px;
+  border: 1px solid #6dab3c;
+  border-radius: 3px;
+  margin: 5px;
+  cursor: pointer;
+  -webkit-transition: all 05s ease;
+  -moz-transition: all 05s ease;
+  -ms-transition: all 05s ease;
+  -o-transition: all 05s ease;
+  transition: all 0.5s ease;
+}
+.control:hover {
+  background: #6dab3c;
+}
+.mixitup-control-active {
+  color: #fff;
+  background: #50977f;
+}
+.fancybox-container button:focus {
+  outline: 0;
+  box-shadow: none;
+}
+.portfolio-item {
+  padding-top: 30px;
+}
+.portfolio-item li {
+  list-style: none;
+}
+.pd {
+  padding: 0;
+  padding: 10px;
+}
+.pd img {
+  /* height: 180px; */
+  width: 100%;
+  transition: all 0.5s;
+  border-radius: 15px;
+}
+.portfolio-overlay {
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  background: #ffffff;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  visibility: hidden;
+  transition: all 0.5s;
+  transform: scale(0);
+}
+.portfolio-overlay p,
+.portfolio-overlay a {
+  position: relative;
+  z-index: 4;
+}
+.portfolio-overlay::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-width: 0;
+  position: absolute;
+  left: 10%;
+  top: 10%;
+  transition: 50ms height ease 150ms;
+  z-index: 3;
+}
+.portfolio-overlay::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-width: 0;
+  position: absolute;
+  right: 10%;
+  bottom: 10%;
+  transition: 100ms width ease 200ms;
+  z-index: 3;
+}
+.portfolio-item:hover .portfolio-overlay::before {
+  width: 80%;
+  height: 80%;
+  border-top: 1px solid #50977f;
+  border-right: 1px solid #50977f;
+  transition: width 0.1s ease 0.3s, height 0.1s ease 0.5s;
+}
+.portfolio-item:hover .portfolio-overlay::after {
+  width: 80%;
+  height: 80%;
+  border-bottom: 1px solid #50977f;
+  border-left: 1px solid #50977f;
+  transition: width 0.1s ease 0.6s, height 0.1s ease 0.7s;
+}
+.portfolio-item li:hover .portfolio-overlay {
+  visibility: visible;
+  transform: scale(1);
+}
+.portfolio-overlay .category {
+  margin-top: 70px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+}
+.portfolio-overlay .magnify-icon {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  background: #50977f;
+  margin: 0 5px;
+  cursor: pointer;
+  display: inline-block;
+  transition: all 0.25s;
+}
+.portfolio-overlay .magnify-icon:hover {
+  background: #ffffff;
+}
+.portfolio-overlay .magnify-icon p span i {
+  font-size: 15px;
+  color: #fff;
+  line-height: 40px;
+  cursor: pointer;
+}
+.sec_for_peace{
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(../img/about.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 15rem;
+  display: flex;
+  align-items: center;
+}
+.place-inner h2{
+  color: #6dab3c;
+}
+.place-inner p{
+  color: #fff;
+}
+.brd-rd40{
+  background-color: #6dab3c;
+  color: #fff;
+  padding: 15px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  
+}
+.brd-rd40:hover{
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
 /* events */
 .hazrat_ali_head{
   font-size: 25px;
