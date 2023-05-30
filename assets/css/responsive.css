@@ -43,12 +43,4 @@
     display: flex;
   }
 }
-<<<<<<< HEAD
 
-=======
-@media only screen and (max-width: 767px) {
-  .hero_h_bg_img{
-    padding: 100px 0px ;
->>>>>>> ec8d85578da7bfe7fba63a0771b8eab4cd800cae
-  }
-}

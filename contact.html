@@ -102,10 +102,104 @@
       </section>
       <!-- hero-section-ended-here -->
       <!-- contact-section-started-here -->
-       
+      <div class="container">
+        <div class="row">
+          <div class="contain mt-5">
+            <div class="wrapper">
+              <div class="form">
+                <h4>GET IN TOUCH</h4>
+                <h2 class="form-headline">Send us a message</h2>
+                <form id="submit-form" action="">
+                  <p>
+                    <input
+                      id="name"
+                      class="form-input"
+                      type="text"
+                      placeholder="First Name*"
+                    />
+                    <small class="name-error"></small>
+                  </p>
+                  <p>
+                    <input
+                      id="email"
+                      class="form-input"
+                      type="email"
+                      placeholder="Last Name*"
+                    />
+                    <small class="name-error"></small>
+                  </p>
+                  <p class="full-width">
+                    <input
+                      id="company-name"
+                      class="form-input"
+                      type="text"
+                      placeholder="Your Email*"
+                      required
+                    />
+                    <small></small>
+                  </p>
+                  <p class="full-width">
+                    <textarea
+                      minlength="20"
+                      id="message"
+                      cols="30"
+                      rows="7"
+                      placeholder="Your Message*"
+                      required
+                    ></textarea>
+                    <small></small>
+                  </p>
+                  <p class="full-width">
+                    <input
+                      type="checkbox"
+                      id="checkbox"
+                      name="checkbox"
+                      checked
+                    />
+                    Yes, I would like to receive communications by call / email
+                    about Company's services.
+                  </p>
+                  <p class="full-width">
+                    <input
+                      type="submit"
+                      class="submit-btn"
+                      value="Submit"
+                      onclick="checkValidations()"
+                    />
+                    <button class="reset-btn" onclick="reset()">Reset</button>
+                  </p>
+                </form>
+              </div>
+
+              <div class="contacts contact-wrapper mt-5">
+                <ul class="mt-lg-5">
+                  <h2>Details Here...</h2>
+                  <li class="text-muted pt-3" style="font-size: 19px">
+                    In today’s Digital Age learning about Islam has never been
+                    easier. Yet, not all what is available on the internet can
+                    said to be from credible sources and as a Muslim one has to
+                    be careful from where he/she learns their religion.
+                  </li>
+                  <span class="hightlight-contact-info">
+                    <li class="email-info">
+                      <i class="bi bi-envelope-at"></i>
+                      <span class="ms-3">islamic @ gmail.com</span>
+                    </li>
+                    <li class="pt-3">
+                      <i class="bi bi-telephone" style="color: #6dab3c"></i>
+                      <span class="highlight-text ms-3">+ 92 318776573286</span>
+                    </li>
+                  </span>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <!-- contact-section-ended-here -->
     </main>
-    <footer>
+    <footer class="mt-5">
       <div class="container-fluid main-footer">
         <div class="container">
           <div class="row">
@@ -191,5 +285,6 @@
       integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
       crossorigin="anonymous"
     ></script>
+    <script src="./inedx.js"></script>
   </body>
 </html>
